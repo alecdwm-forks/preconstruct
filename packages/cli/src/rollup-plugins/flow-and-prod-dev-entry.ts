@@ -8,7 +8,7 @@ import { FatalError } from "../errors";
 import * as fs from "fs-extra";
 import normalizePath from "normalize-path";
 
-const allowedExtensionRegex = /\.([tj]sx?|json)$/;
+const allowedExtensionRegex = /\.([tj]sx?|json|svg)$/;
 
 export default function flowAndNodeDevProdEntry(
   pkg: Package,
