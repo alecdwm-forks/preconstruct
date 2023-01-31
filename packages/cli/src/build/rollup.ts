@@ -15,6 +15,7 @@ import rewriteBabelRuntimeHelpers from "../rollup-plugins/rewrite-babel-runtime-
 import flowAndNodeDevProdEntry from "../rollup-plugins/flow-and-prod-dev-entry";
 import typescriptDeclarations from "../rollup-plugins/typescript-declarations";
 import json from "@rollup/plugin-json";
+import svgr from "@svgr/rollup";
 import babel from "../rollup-plugins/babel";
 import terser from "../rollup-plugins/terser";
 import { getBaseDistName } from "../utils";
@@ -175,6 +176,7 @@ export let getRollupConfig = (
       json({
         namedExports: false,
       }),
+      svgr(),
       type === "umd" &&
         alias({
           entries: aliases,
