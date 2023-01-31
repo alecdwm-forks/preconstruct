@@ -197,7 +197,9 @@ let unregister = require(${JSON.stringify(
                 normalizePath(
                   path.relative(
                     distDirectory,
-                    path.dirname(require.resolve("@preconstruct/hook"))
+                    path.dirname(
+                      require.resolve("@alectalisman/preconstruct-hook")
+                    )
                   )
                 )
               )}).___internalHook(typeof __dirname === 'undefined' ? undefined : __dirname, ${JSON.stringify(

@@ -111,7 +111,7 @@ test("all the build types", async () => {
       normalizePath(
         path.relative(
           distPath,
-          path.dirname(require.resolve("@preconstruct/hook"))
+          path.dirname(require.resolve("@alectalisman/preconstruct-hook"))
         )
       ),
 

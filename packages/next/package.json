@@ -1,5 +1,5 @@
 {
-  "name": "@preconstruct/next",
+  "name": "@alectalisman/preconstruct-next",
   "version": "4.0.0",
   "description": "A Next.js plugin to work with preconstruct repos",
   "files": [
