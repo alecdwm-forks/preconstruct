@@ -1,6 +1,6 @@
 {
-  "name": "@preconstruct/cli",
-  "version": "2.3.0",
+  "name": "@alectalisman/preconstruct-cli",
+  "version": "2.3.0-c",
   "description": "Dev and build your code painlessly in monorepos",
   "files": [
     "bin.js",
