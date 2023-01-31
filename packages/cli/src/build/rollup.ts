@@ -176,7 +176,7 @@ export let getRollupConfig = (
       json({
         namedExports: false,
       }),
-      svgr(),
+      svgr({ exportType: "named", dimensions: false }),
       type === "umd" &&
         alias({
           entries: aliases,
